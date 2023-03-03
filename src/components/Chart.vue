@@ -124,7 +124,6 @@ export default {
 </script>
 
 <template>
-    <h2>asdas</h2>
     <div>
         <Line :data="chartPowerConsumptionData" :options="chartOptions" />
     </div>

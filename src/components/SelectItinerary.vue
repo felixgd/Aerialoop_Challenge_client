@@ -26,7 +26,6 @@ import { emitter } from '../composables/useEvent'
       Select the desire itinerary:
     </h3> <br>
     <select v-model="selected" placeholder="Select" @click="loadItineraries()" @change="sendIDToComponent(selected)">
-      <option value="all">Select All</option>
       <option v-for="(itinerary, key) in itineraries" :value="itinerary" :key="key">{{ itinerary }}</option>
     </select>
   </div>
